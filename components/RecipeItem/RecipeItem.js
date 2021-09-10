@@ -11,7 +11,7 @@ const RecipeItem = (props) => {
             style={styles.container}
             onPress={() => navigation.navigate('DetailPage',{id: id})}>
                 <Image
-                source={image}
+                source={{uri: image }}
                 style={styles.image} />
                 <View style={styles.titles}>
                 <Text style={styles.title}>{name}</Text>
