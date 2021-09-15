@@ -13,6 +13,9 @@ const styles = StyleSheet.create({
         zIndex: 200,
         backgroundColor: '#00aced',
         borderRadius: 50
+    },
+    search : {
+        width: 100
     }
 });
 
